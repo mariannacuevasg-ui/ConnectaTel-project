@@ -55,18 +55,46 @@ El notebook (`S7_Version-Estudiante-Project-ConnectaTel.ipynb`) sigue estos paso
 
 ## ▶️ Cómo ejecutar el notebook
 
+## ▶️ Cómo ejecutar el notebook
+
+El proyecto puede ejecutarse directamente en **Google Colab** o de forma local utilizando **Jupyter Notebook**.
+
+Los datasets necesarios (`plans.csv`, `users_latam.csv` y `usage.csv`) se encuentran en la carpeta `datasets/` de este repositorio.
+
 ### Opción A: Google Colab (recomendado)
 
-1. Sube el archivo `S7_Version-Estudiante-Project-ConnectaTel.ipynb` a [Google Colab](https://colab.research.google.com/) (`Archivo → Subir cuaderno`), o ábrelo directamente desde GitHub una vez esté en el repositorio (`Archivo → Abrir cuaderno → GitHub`).
-2. Sube los tres archivos de datos (`plans.csv`, `users_latam.csv`, `usage.csv`) a la ruta `/datasets/` dentro del entorno de Colab, o ajusta las rutas de carga en la celda de "cargar archivos" según donde los hayas colocado (por ejemplo, montando Google Drive).
-3. Ejecuta las celdas en orden, de principio a fin (`Entorno de ejecución → Ejecutar todas`).
+Esta es la forma más sencilla de explorar y ejecutar el proyecto.
 
-### Opción B: Jupyter local
+1. Abre el notebook `S7_Version-Estudiante-Project-ConnectaTel.ipynb` desde este repositorio.
+2. Selecciona **Open in Colab** para abrirlo en Google Colab.
+3. Ejecuta las celdas en orden o selecciona:
+   **Entorno de ejecución → Ejecutar todas**.
+4. Los datasets se cargarán automáticamente desde este repositorio, por lo que no es necesario descargarlos o subirlos manualmente a Colab.
 
-1. Clona este repositorio.
-2. Instala las dependencias (ver sección de Requisitos).
-3. Coloca `plans.csv`, `users_latam.csv` y `usage.csv` en una carpeta `datasets/` en la raíz del proyecto, o ajusta las rutas en la celda de carga de archivos.
-4. Abre el notebook con `jupyter notebook S7_Version-Estudiante-Project-ConnectaTel.ipynb` y ejecuta todas las celdas en orden.
+> **Nota:** Se requiere conexión a Internet para cargar los datasets desde GitHub.
+
+### Opción B: Jupyter Notebook
+
+Para ejecutar el proyecto de forma local:
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/mariannacuevasg-ui/ConnectaTel-project.git
+
+2. Accede a la carpeta del proyecto:
+   
+cd ConnectaTel-project
+
+3. Instala las dependencias necesarias:
+
+pip install pandas numpy matplotlib seaborn scipy
+
+4. Abre Jupyter Notebook:
+
+jupyter notebook
+
+5. Abre S7_Version-Estudiante-Project-ConnectaTel.ipynb y ejecuta las celdas en orden.
 
 ### Requisitos
 
