@@ -55,8 +55,6 @@ El notebook (`S7_Version-Estudiante-Project-ConnectaTel.ipynb`) sigue estos paso
 
 ## ▶️ Cómo ejecutar el notebook
 
-## ▶️ Cómo ejecutar el notebook
-
 El proyecto puede ejecutarse directamente en **Google Colab** o de forma local utilizando **Jupyter Notebook**.
 
 Los datasets necesarios (`plans.csv`, `users_latam.csv` y `usage.csv`) se encuentran en la carpeta `datasets/` de este repositorio.
