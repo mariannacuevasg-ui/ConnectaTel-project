@@ -82,15 +82,15 @@ Para ejecutar el proyecto de forma local:
 
 2. Accede a la carpeta del proyecto:
    
-cd ConnectaTel-project
+```cd ConnectaTel-project```
 
 3. Instala las dependencias necesarias:
 
-pip install pandas numpy matplotlib seaborn scipy
+```pip install pandas numpy matplotlib seaborn scipy```
 
 4. Abre Jupyter Notebook:
 
-jupyter notebook
+```jupyter notebook```
 
 5. Abre S7_Version-Estudiante-Project-ConnectaTel.ipynb y ejecuta las celdas en orden.
 
@@ -124,7 +124,7 @@ Para reproducir el análisis completo desde cero:
 ```
 ├── S7_Version-Estudiante-Project-ConnectaTel.ipynb   # Notebook principal del análisis
 ├── README.md                                          # Este archivo
-└── datasets/                                          # (no incluido) plans.csv, users_latam.csv, usage.csv
+└── datasets/                                          # plans.csv, users_latam.csv, usage.csv
 ```
 
 ## 📌 Notas
