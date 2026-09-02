@@ -39,7 +39,7 @@ A partir de `users` y `usage` limpios, se construye:
 
 ## 🧩 Etapas del análisis
 
-El notebook (`S7_Version-Estudiante-Project-ConnectaTel.ipynb`) sigue estos pasos:
+El notebook (`Project-ConnectaTel_analysis.ipynb`) sigue estos pasos:
 
 1. **Carga y exploración**: lectura de los tres datasets crudos, revisión de forma (`shape`), tipos de datos (`.info()`) y primeras filas.
 2. **Identificación de problemas de calidad de datos**:
@@ -63,7 +63,7 @@ Los datasets necesarios (`plans.csv`, `users_latam.csv` y `usage.csv`) se encuen
 
 Esta es la forma más sencilla de explorar y ejecutar el proyecto.
 
-1. Abre el notebook `S7_Version-Estudiante-Project-ConnectaTel.ipynb` desde este repositorio.
+1. Abre el notebook `Project-ConnectaTel_analysis.ipynb` desde este repositorio.
 2. Selecciona **Open in Colab** para abrirlo en Google Colab.
 3. Ejecuta las celdas en orden o selecciona:
    **Entorno de ejecución → Ejecutar todas**.
@@ -122,7 +122,7 @@ Para reproducir el análisis completo desde cero:
 ## 📁 Estructura del repositorio
 
 ```
-├── S7_Version-Estudiante-Project-ConnectaTel.ipynb   # Notebook principal del análisis
+├── Project-ConnectaTel_analysis.ipynb   # Notebook principal del análisis
 ├── README.md                                          # Este archivo
 └── datasets/                                          # plans.csv, users_latam.csv, usage.csv
 ```
